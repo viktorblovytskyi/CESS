@@ -50,7 +50,7 @@
 	(format t "%s " ?text)
 	(printout t ?answers " ")
 	(bind ?reply (read))
-	(if (member (lowcase ?reply) ?answers)–¥—É–≤
+	(if (member (lowcase ?reply) ?answers)‰Û‚
 		then (assert (variable ?variable ?reply))
 		(retract ?f2)
 	else (assert (goal is ?variable))))
@@ -100,5 +100,3 @@
 	(rule (if wheel is base and super.car is no) (then model.nissan is "Nissan Juke LE Active" ))
 	(question super.car is "Do you need super car?")
 	(answer is "Your car is " model.nissan))
-
-
